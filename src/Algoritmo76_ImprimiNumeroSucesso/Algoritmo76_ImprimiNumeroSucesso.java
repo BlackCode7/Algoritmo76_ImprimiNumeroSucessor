@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class Algoritmo76_ImprimiNumeroSucesso {
 	
-	static int num ;
+	static int num ; //
 
 	public static void main(String[] args) {		
 		algoritmo76_ImprimeNumeroSucessor(num);
 	}
 
 	private static void algoritmo76_ImprimeNumeroSucessor(int num) {				
-		System.out.println("Digite um número: ");		
+		System.out.println("Digite um nï¿½mero: ");		
 		Scanner scanner = new Scanner(System.in);
 		num = scanner.nextInt();		
-		System.out.println("Número sucessor:  " + (num + 1)%61);
+		System.out.println("Nï¿½mero sucessor:  " + (num + 1)%61);
 	}
 
 }
